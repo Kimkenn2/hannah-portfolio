@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}/>
+        <Route path="/browseArt" element={<BrowseArt />} />
       </Routes>
       </BrowserRouter>
       
